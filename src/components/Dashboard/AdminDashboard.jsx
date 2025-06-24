@@ -2,7 +2,7 @@ import React from 'react';
 
 import CreateTask from '../Others/CreateTask';
 import AllTask from '../Others/AllTask';
-import Header from '../Others/header';
+import Header from '../Others/Header';
 
 const AdminDashboard = ({ changeUser }) => {
   return (
