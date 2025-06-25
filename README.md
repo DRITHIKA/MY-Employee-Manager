@@ -1,12 +1,59 @@
-# React + Vite
+> A modern, responsive Admin + Employee dashboard to manage, assign, and track tasks in real time — built with React, Context API, Tailwind CSS, and localStorage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🔥 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ **Login System**  
+🔐 Admin and Employee login credentials with role-based dashboard rendering.
 
-## Expanding the ESLint configuration
+✨ **Admin Dashboard**  
+📌 Assign tasks  
+📌 View task status of all employees  
+📌 Auto-updating dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ **Employee Dashboard**  
+✅ Track assigned tasks  
+✅ Mark as Completed or Failed  
+📊 View stats in real time
+
+✨ **Task Status Cards**  
+🆕 New Tasks  
+💼 Active Tasks  
+✔️ Completed Tasks  
+❌ Failed Tasks
+
+✨ **Local Storage Sync**  
+⚡ Tasks persist even after page reload  
+📦 No backend required — works offline
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Click here to view the live project][(https://your-deployment-link.vercel.app](https://my-employee-manager.vercel.app/))  
+*(Deployed via Vercel)*
+
+---
+## 🧠 Tech Stack
+
+- ⚛️ React.js
+- 💨 Tailwind CSS
+- 🧠 Context API
+- 💾 localStorage
+- 🎨 Responsive Design
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/DRITHIKA/MY-Employee-Manager.git
+cd MY-Employee-Manager
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
